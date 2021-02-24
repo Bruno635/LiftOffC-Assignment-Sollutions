@@ -10,6 +10,7 @@ int main(){
     
     while(str[i]!='\0'){
         nwords+=1;
+        i++;
     }
 printf("Number of words: %d \n .",nwords);
 return 0;
